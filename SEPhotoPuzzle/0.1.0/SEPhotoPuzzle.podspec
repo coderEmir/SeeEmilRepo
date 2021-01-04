@@ -34,13 +34,13 @@ TODO: Add long description of the pod here.
     'SEPhotoPuzzle' => ['SEPhotoPuzzle/Assets/*']
   }
   
-  if ENV['is_source']
-      s.source_files = 'SEPhotoPuzzle/Classes/**/*'
-  else
-        s.source_files = 'SEPhotoPuzzle/Classes/**/*'
+  #if ENV['is_source']
+  #    s.source_files = 'SEPhotoPuzzle/Classes/**/*'
+  #else
+  #      s.source_files = 'SEPhotoPuzzle/Classes/**/*'
       # s.vendored_frameworks = 'SEPhotoPuzzle/Products/SEPhotoPuzzle.framework'
-  end
-  
+  #end
+  s.source_files = 'SEPhotoPuzzle/Classes/**/*'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
 
